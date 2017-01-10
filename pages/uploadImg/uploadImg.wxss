@@ -1,0 +1,7 @@
+
+.scroll_view_vertical{
+    background-color: ghostwhite;
+}
+.item{
+    height: 50px;
+}

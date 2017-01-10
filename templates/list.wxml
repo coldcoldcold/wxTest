@@ -1,0 +1,6 @@
+<template name="imgList">
+    <view class="imgView">
+        <image src="{{src}}" class="imgItem" mode="aspectFit"></image>
+        <text class="imgText">{{name}}</text>
+    </view>
+</template>

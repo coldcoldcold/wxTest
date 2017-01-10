@@ -1,0 +1,6 @@
+<import src="../../templates/list.wxml"></import>
+<scroll-view class="scroll_view_vertical" style="height:{{windowHeight}}px;width:{{windowWidth}}px;" scroll-y>
+    <view wx:for="{{imgInfo}}">
+        <template is="imgList" data="{{...item}}"></template>
+    </view>
+</scroll-view>
